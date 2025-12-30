@@ -2,12 +2,10 @@
 
 <div align="center">
 
-  <!-- Badge del Frontend -->
   <a href="https://github.com/agussantinelli/Promiedos-NBA-FrontEnd" target="_blank" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/💻%20Repo%20Frontend-Astro%20%7C%20TypeScript-FF5F00?style=for-the-badge&logo=astro&logoColor=white" alt="Repo Frontend"/>
   </a>
 
-  <!-- Badge del Backend -->
   <a href="https://github.com/agussantinelli/Promiedos-NBA-BackEnd" target="_blank" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/⚙️%20Repo%20Backend-Node.js%20%7C%20Express-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Repo Backend"/>
   </a>
@@ -26,6 +24,12 @@
   <img src="https://img.shields.io/badge/TypeScript-Lenguaje-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Badge"/>
   <img src="https://img.shields.io/badge/MySQL-Base%20de%20Datos-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL Badge"/>
 </p>
+
+<div align="center">
+    <a href="https://drive.google.com/drive/folders/1EUGlDWBfIjM2IB9C-M7n3oqcy_gZE8f-" target="_blank">
+        <img src="https://img.shields.io/badge/📂%20Documentación%20del%20Proyecto-Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Docs Badge"/>
+    </a>
+</div>
 
 <hr/>
 
