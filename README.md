@@ -233,7 +233,21 @@ npm run dev
   Email: <a href="mailto:agustinsantinelli@gmail.com">agustinsantinelli@gmail.com</a><br/>
   GitHub: <a href="https://github.com/agussantinelli" target="_blank">@agussantinelli</a>
 </p>
+<hr>
 
+<h2 align="left">⚖️ Licencia</h2>
+
+<p align="left">
+  Este proyecto está bajo la <b>Licencia MIT</b>. Para más detalles, puedes consultar el archivo 
+  <a href="LICENSE"><code>LICENSE</code></a> incluido en la raíz de este repositorio.
+</p>
+
+<p align="left">
+  <i>
+    La licencia MIT permite el uso, copia, modificación y distribución del software de forma gratuita, 
+    siempre que se incluya el aviso de copyright original.
+  </i>
+</p>
 <hr/>
 
 <p><em>Promiedos NBA – Backend para una plataforma estadística de baloncesto en español, moderna y extensible.</em></p>
