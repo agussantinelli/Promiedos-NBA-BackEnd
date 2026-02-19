@@ -231,7 +231,6 @@ npm run dev
   Email: <a href="mailto:agustinsantinelli@gmail.com">agustinsantinelli@gmail.com</a><br/>
   GitHub: <a href="https://github.com/agussantinelli" target="_blank">@agussantinelli</a>
 </p>
-<hr>
 
 <hr>
 
