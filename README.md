@@ -87,7 +87,7 @@
     </tr>
     <tr>
       <td><strong>Base de datos</strong></td>
-      <td>MySQL</td>
+      <td>PostgreSQL</td>
       <td>Almacenamiento relacional para temporadas, equipos, jugadores y partidos.</td>
     </tr>
     <tr>
