@@ -87,12 +87,12 @@
     </tr>
     <tr>
       <td><strong>Base de datos</strong></td>
-      <td>MySQL</td>
+      <td>PostgreSQL</td>
       <td>Almacenamiento relacional para temporadas, equipos, jugadores y partidos.</td>
     </tr>
     <tr>
       <td><strong>ORM / Query Layer</strong></td>
-      <td>A definir (Prisma / Drizzle / Knex)</td>
+      <td>TypeORM</td>
       <td>Abstracción de acceso a datos, migraciones y tipado.</td>
     </tr>
     <tr>
