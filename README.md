@@ -7,7 +7,7 @@
   </a>
 
   <a href="https://github.com/agussantinelli/Promiedos-NBA-BackEnd" target="_blank" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/⚙️%20Repo%20Backend-Node.js%20%7C%20Express-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Repo Backend"/>
+    <img src="https://img.shields.io/badge/⚙️%20Repo%20Backend-NestJS%20%7C%20PostgreSQL-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="Repo Backend"/>
   </a>
 
   <a href="https://github.com/agussantinelli" target="_blank">
@@ -18,10 +18,10 @@
 
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Node.js-Runtime-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node Badge"/>
-  <img src="https://img.shields.io/badge/Express-Framework-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express Badge"/>
+  <img src="https://img.shields.io/badge/NestJS-Framework-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS Badge"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-Base%20de%20Datos-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL Badge"/>
   <img src="https://img.shields.io/badge/TypeScript-Lenguaje-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Badge"/>
-  <img src="https://img.shields.io/badge/MySQL-Base%20de%20Datos-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL Badge"/>
+  <img src="https://img.shields.io/badge/pnpm-Package%20Manager-F69220?style=for-the-badge&logo=pnpm&logoColor=white" alt="pnpm Badge"/>
 </div>
 
 <div align="center">
@@ -39,8 +39,8 @@
 <h2>🎯 Objetivo del BackEnd</h2>
 
 <p>
-  El <strong>BackEnd</strong> de <strong>Promiedos NBA</strong> expone una <strong>API REST</strong> en TypeScript sobre 
-  <strong>Node.js + Express + MySQL</strong>, encargada de centralizar:
+  El <strong>BackEnd</strong> de <strong>Promiedos NBA</strong> expone una <strong>API REST</strong> robusta construida con <strong>NestJS</strong> sobre 
+  <strong>Node.js + PostgreSQL</strong>, utilizando <strong>TypeORM</strong> como capa de persistencia. Se encarga de centralizar:
 </p>
 
 <ul>
@@ -54,7 +54,7 @@
 </ul>
 
 <p>
-  El diseño está pensado para poder escalar hacia múltiples competiciones de baloncesto sin romper el modelo de datos.
+  Gracias a la arquitectura modular de <strong>NestJS</strong>, el diseño permite escalar fácilmente hacia múltiples competiciones de baloncesto.
 </p>
 
 <hr/>
@@ -77,8 +77,8 @@
     </tr>
     <tr>
       <td><strong>Framework</strong></td>
-      <td>Express</td>
-      <td>Servidor HTTP y routing modular.</td>
+      <td>NestJS</td>
+      <td>Framework progresivo para aplicaciones de servidor eficientes y escalables.</td>
     </tr>
     <tr>
       <td><strong>Lenguaje</strong></td>
@@ -188,7 +188,8 @@ cd Promiedos-NBA-BackEnd
 
 <h3>2️⃣ Variables de entorno (ejemplo .env)</h3>
 
-<pre><code>DB_HOST=localhost
+<pre><code>
+DB_HOST=localhost
 DB_PORT=3306
 DB_USER=root
 DB_PASSWORD=password
@@ -200,8 +201,9 @@ NODE_ENV=development
 
 <h3>3️⃣ Instalar dependencias y levantar el servidor</h3>
 
-<pre><code>npm install
-npm run dev
+<pre><code>
+pnpm install
+pnpm dev
 </code></pre>
 
 <hr/>
