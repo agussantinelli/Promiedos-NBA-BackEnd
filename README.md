@@ -179,6 +179,27 @@
 
 <hr/>
 
+<h2>📁 Estructura del Proyecto</h2>
+
+<pre><code>Promiedos-NBA-BackEnd/
+├── src/                                         # Código fuente principal
+│   ├── modules/                                 # Módulos funcionales (NBA, Teams, Players)
+│   ├── common/                                  # Filtros, guards, decorators globales
+│   ├── config/                                  # Configuración de App y DB
+│   ├── database/                                # Entidades, Migraciones y Seeds
+│   ├── app.module.ts                            # Módulo raíz de la aplicación
+│   └── main.ts                                  # Punto de entrada (Configuración global)
+├── test/                                        # Tests de integración (E2E)
+├── .env                                         # Variables de entorno (DB, Port)
+├── .gitignore                                   # Archivos excluidos de Git
+├── nest-cli.json                                # Configuración del CLI de Nest
+├── package.json                                 # Dependencias y scripts
+├── tsconfig.json                                # Configuración de TypeScript
+└── pnpm-lock.yaml                               # Lockfile de dependencias
+</code></pre>
+
+<hr/>
+
 <h2>🔧 Configuración e instalación</h2>
 
 <h3>1️⃣ Clonar el repositorio</h3>
