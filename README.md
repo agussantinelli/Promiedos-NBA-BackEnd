@@ -265,6 +265,46 @@ pnpm db:studio
 
 <hr/>
 
+
+<h2>💻 Comandos pnpm disponibles</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Comando</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p><code>pnpm dev</code></p></td>
+      <td>Inicia el servidor de desarrollo con <b>tsx --watch</b> y recarga automática.</td>
+    </tr>
+    <tr>
+      <td><p><code>pnpm build</code></p></td>
+      <td>Compila el proyecto TypeScript a <code>dist/</code> para producción.</td>
+    </tr>
+    <tr>
+      <td><p><code>pnpm start</code></p></td>
+      <td>Ejecuta el servidor compilado desde <code>dist/index.js</code>.</td>
+    </tr>
+    <tr>
+      <td><p><code>pnpm db:generate</code></p></td>
+      <td>Genera los archivos de migración SQL a partir del schema de <b>Drizzle</b>.</td>
+    </tr>
+    <tr>
+      <td><p><code>pnpm db:migrate</code></p></td>
+      <td>Aplica las migraciones pendientes sobre la base de datos PostgreSQL.</td>
+    </tr>
+    <tr>
+      <td><p><code>pnpm db:studio</code></p></td>
+      <td>Abre <b>Drizzle Studio</b> para inspeccionar y editar datos visualmente.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
 <h2>📬 Contacto</h2>
 
 <p>
