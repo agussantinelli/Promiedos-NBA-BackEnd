@@ -221,6 +221,24 @@
 
 <hr/>
 
+<h2>📌 Futuras extensiones de la API</h2>
+
+<p>
+  La API está pensada para soportar múltiples ligas y torneos de baloncesto en el futuro:
+</p>
+
+<ul>
+  <li>Juegos Olímpicos (JJOO).</li>
+  <li>EuroBasket.</li>
+  <li>EuroLeague.</li>
+  <li>Liga ACB.</li>
+  <li>Liga Nacional Argentina.</li>
+  <li>G League.</li>
+  <li>Otros torneos FIBA y ligas regionales.</li>
+</ul>
+
+<hr/>
+
 <h2>🔧 Configuración e instalación</h2>
 
 <h3>1️⃣ Clonar el repositorio</h3>
@@ -263,25 +281,6 @@ pnpm db:studio
 </code></pre>
 
 <hr/>
-
-<h2>📌 Futuras extensiones de la API</h2>
-
-<p>
-  La API está pensada para soportar múltiples ligas y torneos de baloncesto en el futuro:
-</p>
-
-<ul>
-  <li>Juegos Olímpicos (JJOO).</li>
-  <li>EuroBasket.</li>
-  <li>EuroLeague.</li>
-  <li>Liga ACB.</li>
-  <li>Liga Nacional Argentina.</li>
-  <li>G League.</li>
-  <li>Otros torneos FIBA y ligas regionales.</li>
-</ul>
-
-<hr/>
-
 
 <h2>💻 Comandos pnpm disponibles</h2>
 
