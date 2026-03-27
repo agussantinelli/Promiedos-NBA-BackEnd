@@ -37,6 +37,5 @@ pnpm-debug.log*
 .env.production.local
 .env.local
 
-# NestJS
-.nest
-nest-cli.json
+# Drizzle
+drizzle/
