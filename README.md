@@ -321,6 +321,23 @@ pnpm db:studio
 
 <hr />
 
+<h2>📬 Contacto</h2>
+
+<div align="center">
+  
+  <img src="https://img.shields.io/badge/Autor-Agustín%20Santinelli-2b3137?style=for-the-badge&logo=person&logoColor=white" alt="Autor"/>
+
+  <a href="mailto:agustinsantinelli@gmail.com">
+    <img src="https://img.shields.io/badge/Email-agustinsantinelli%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+
+  <a href="https://github.com/agussantinelli" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-@agussantinelli-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+
+</div>
+
+<hr>
 <h2 align="left">⚖️ Licencia y Propiedad Intelectual</h2>
 
 <p align="left">
