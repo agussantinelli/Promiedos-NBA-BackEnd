@@ -204,6 +204,23 @@
 
 <hr/>
 
+<h2>🛠️ Skills Especializadas</h2>
+<p>Ubicadas en <code>.agent/skills/</code>, son guías técnicas que definen cómo se deben construir las diferentes partes del sistema:</p>
+
+<ul>
+    <li><b>🌍 global-context:</b> Regla maestra — contexto arquitectónico global y flujo de implementación obligatorio (schema → migrate → service → route).</li>
+    <li><b>🚀 fastify:</b> Blueprint para rutas, plugins, schemas de validación y tipado de handlers con Fastify v5.</li>
+    <li><b>🧹 code-quality:</b> Principios SOLID, política "Sin Comentarios" y regla de no usar <code>any</code>.</li>
+    <li><b>🏷️ naming-conventions:</b> Convenciones de archivos (<code>kebab-case</code>), código (<code>camelCase</code>) y columnas DB (<code>snake_case</code>).</li>
+    <li><b>🟢 node:</b> Buenas prácticas de Node.js: async/await, ESM, dotenv y no blocking.</li>
+    <li><b>🧪 test-enforcement:</b> Regla que exige un archivo <code>.spec.ts</code> por cada archivo de lógica de negocio en <code>src/services/</code>.</li>
+    <li><b>🔄 readme-auto-sync:</b> Sincronización obligatoria del README cuando cambia la estructura, el schema o los endpoints.</li>
+    <li><b>🚫 no-browser:</b> Prohibición estricta del subagente del navegador en todas las circunstancias.</li>
+    <li><b>📚 global-skills:</b> Índice maestro de todas las skills de arquitectura disponibles en el proyecto.</li>
+</ul>
+
+<hr/>
+
 <h2>🔧 Configuración e instalación</h2>
 
 <h3>1️⃣ Clonar el repositorio</h3>
