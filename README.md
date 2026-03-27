@@ -3,11 +3,11 @@
 <div align="center">
 
   <a href="https://github.com/agussantinelli/Promiedos-NBA-FrontEnd" target="_blank" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/💻%20Repo%20Frontend-Vue.js%20%7C%20TypeScript-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Repo Frontend"/>
+    <img src="https://img.shields.io/badge/💻%20Repo%20Frontend-SvelteKit%20%7C%20TypeScript-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" alt="Repo Frontend"/>
   </a>
 
   <a href="https://github.com/agussantinelli/Promiedos-NBA-BackEnd" target="_blank" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/⚙️%20Repo%20Backend-NestJS%20%7C%20PostgreSQL-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="Repo Backend"/>
+    <img src="https://img.shields.io/badge/⚙️%20Repo%20Backend-Fastify%20%7C%20PostgreSQL-000000?style=for-the-badge&logo=fastify&logoColor=white" alt="Repo Backend"/>
   </a>
 
   <a href="https://github.com/agussantinelli" target="_blank">
@@ -18,9 +18,9 @@
 
 
 <div align="center">
-  <img src="https://img.shields.io/badge/NestJS-Framework-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS Badge"/>
+  <img src="https://img.shields.io/badge/Fastify-Framework-000000?style=for-the-badge&logo=fastify&logoColor=white" alt="Fastify Badge"/>
   <img src="https://img.shields.io/badge/PostgreSQL-Base%20de%20Datos-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL Badge"/>
-  <img src="https://img.shields.io/badge/TypeORM-ORM-e53535?style=for-the-badge&logo=typeorm&logoColor=white" alt="TypeORM Badge"/>
+  <img src="https://img.shields.io/badge/Drizzle-ORM-C5F74F?style=for-the-badge&logoColor=black" alt="Drizzle Badge"/>
   <img src="https://img.shields.io/badge/TypeScript-Lenguaje-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Badge"/>
   <img src="https://img.shields.io/badge/pnpm-Package%20Manager-F69220?style=for-the-badge&logo=pnpm&logoColor=white" alt="pnpm Badge"/>
 </div>
@@ -40,8 +40,8 @@
 <h2>🎯 Objetivo del BackEnd</h2>
 
 <p>
-  El <strong>BackEnd</strong> de <strong>Promiedos NBA</strong> expone una <strong>API REST</strong> robusta construida con <strong>NestJS</strong> sobre 
-  <strong>Node.js + PostgreSQL</strong>, utilizando <strong>TypeORM</strong> como capa de persistencia. Se encarga de centralizar:
+  El <strong>BackEnd</strong> de <strong>Promiedos NBA</strong> expone una <strong>API REST</strong> de alto rendimiento construida con <strong>Fastify</strong> sobre
+  <strong>Node.js + PostgreSQL</strong>, utilizando <strong>Drizzle ORM</strong> como capa de persistencia. Se encarga de centralizar:
 </p>
 
 <ul>
@@ -55,7 +55,7 @@
 </ul>
 
 <p>
-  Gracias a la arquitectura modular de <strong>NestJS</strong>, el diseño permite escalar fácilmente hacia múltiples competiciones de baloncesto.
+  La arquitectura liviana de <strong>Fastify</strong> permite escalar fácilmente hacia múltiples competiciones de baloncesto sin la sobrecarga de un framework monolítico.
 </p>
 
 <hr/>
@@ -78,13 +78,13 @@
     </tr>
     <tr>
       <td><strong>Framework</strong></td>
-      <td>NestJS</td>
-      <td>Framework progresivo para aplicaciones de servidor eficientes y escalables.</td>
+      <td>Fastify v5</td>
+      <td>Framework minimalista y de altísimo rendimiento para APIs REST.</td>
     </tr>
     <tr>
       <td><strong>Lenguaje</strong></td>
       <td>TypeScript</td>
-      <td>Tipado estático en controladores, servicios y modelos.</td>
+      <td>Tipado estático en rutas, schemas y acceso a datos.</td>
     </tr>
     <tr>
       <td><strong>Base de datos</strong></td>
@@ -93,13 +93,18 @@
     </tr>
     <tr>
       <td><strong>ORM / Query Layer</strong></td>
-      <td>TypeORM</td>
-      <td>Abstracción de acceso a datos, migraciones y tipado.</td>
+      <td>Drizzle ORM</td>
+      <td>Type-safe, sin codegen, máximo rendimiento con control total de SQL.</td>
     </tr>
     <tr>
-      <td><strong>Tests</strong></td>
-      <td>Jest + Supertest (a definir)</td>
-      <td>Testing unitario e integración HTTP.</td>
+      <td><strong>Driver</strong></td>
+      <td>postgres-js</td>
+      <td>Cliente PostgreSQL moderno y eficiente para Node.js.</td>
+    </tr>
+    <tr>
+      <td><strong>Dev Runner</strong></td>
+      <td>tsx</td>
+      <td>Ejecución de TypeScript en desarrollo sin compilación previa.</td>
     </tr>
   </tbody>
 </table>
@@ -182,20 +187,19 @@
 <h2>📁 Estructura del Proyecto</h2>
 
 <pre><code>Promiedos-NBA-BackEnd/
-├── src/                                         # Código fuente principal
-│   ├── modules/                                 # Módulos funcionales (NBA, Teams, Players)
-│   ├── common/                                  # Filtros, guards, decorators globales
-│   ├── config/                                  # Configuración de App y DB
-│   ├── database/                                # Entidades, Migraciones y Seeds
-│   ├── app.module.ts                            # Módulo raíz de la aplicación
-│   └── main.ts                                  # Punto de entrada (Configuración global)
-├── test/                                        # Tests de integración (E2E)
-├── .env                                         # Variables de entorno (DB, Port)
-├── .gitignore                                   # Archivos excluidos de Git
-├── nest-cli.json                                # Configuración del CLI de Nest
-├── package.json                                 # Dependencias y scripts
-├── tsconfig.json                                # Configuración de TypeScript
-└── pnpm-lock.yaml                               # Lockfile de dependencias
+├── src/
+│   ├── db/
+│   │   ├── index.ts                             # Conexión Drizzle + postgres-js
+│   │   └── schema.ts                            # Schemas de todas las tablas
+│   ├── routes/                                  # Rutas Fastify por dominio
+│   └── index.ts                                 # Punto de entrada (servidor Fastify)
+├── drizzle/                                     # Migraciones generadas (ignorado por git)
+├── .env                                         # Variables de entorno
+├── .gitignore
+├── drizzle.config.ts                            # Configuración de Drizzle Kit
+├── package.json
+├── tsconfig.json
+└── pnpm-lock.yaml
 </code></pre>
 
 <hr/>
@@ -208,24 +212,37 @@
 cd Promiedos-NBA-BackEnd
 </code></pre>
 
-<h3>2️⃣ Variables de entorno (ejemplo .env)</h3>
+<h3>2️⃣ Variables de entorno (.env)</h3>
 
-<pre><code>
-DB_HOST=localhost
-DB_PORT=3306
-DB_USER=root
-DB_PASSWORD=password
-DB_NAME=promiedos_nba
-
+<pre><code>DATABASE_URL=postgresql://postgres:password@localhost:5432/promiedos_nba
 PORT=3000
+HOST=0.0.0.0
+CORS_ORIGIN=http://localhost:5173
 NODE_ENV=development
 </code></pre>
 
-<h3>3️⃣ Instalar dependencias y levantar el servidor</h3>
+<h3>3️⃣ Instalar dependencias</h3>
 
-<pre><code>
-pnpm install
-pnpm dev
+<pre><code>pnpm install
+</code></pre>
+
+<h3>4️⃣ Crear y poblar la base de datos</h3>
+
+<pre><code># Generar migraciones a partir del schema
+pnpm db:generate
+
+# Aplicar migraciones
+pnpm db:migrate
+
+# (Opcional) Abrir Drizzle Studio para inspeccionar datos
+pnpm db:studio
+</code></pre>
+
+<h3>5️⃣ Levantar el servidor en desarrollo</h3>
+
+<pre><code>pnpm dev
+# Servidor disponible en http://localhost:3000
+# Health check: GET http://localhost:3000/health
 </code></pre>
 
 <hr/>
@@ -285,4 +302,4 @@ pnpm dev
 
 <hr />
 
-<p><em>Promiedos NBA – Backend para una plataforma estadística de baloncesto en español, moderna y extensible.</em></p>
+<p><em>Promiedos NBA – Backend de alto rendimiento para una plataforma estadística de baloncesto en español.</em></p>
