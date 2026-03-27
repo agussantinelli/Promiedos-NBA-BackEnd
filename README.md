@@ -321,16 +321,6 @@ pnpm db:studio
 
 <hr />
 
-<h2>📬 Contacto</h2>
-
-<p>
-  Autor: <strong>Agustín Santinelli</strong><br/>
-  Email: <a href="mailto:agustinsantinelli@gmail.com">agustinsantinelli@gmail.com</a><br/>
-  GitHub: <a href="https://github.com/agussantinelli" target="_blank">@agussantinelli</a>
-</p>
-
-<hr>
-
 <h2 align="left">⚖️ Licencia y Propiedad Intelectual</h2>
 
 <p align="left">
